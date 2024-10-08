@@ -34,10 +34,10 @@ export default function () {
 
     if (!success) {
         // If the response status is not 200, log the response details
-        console.error(`Failed to fetch review: ${reviewRes.status}`);
-        console.log('Response Body:', reviewRes.body);
+        console.error(`Failed to fetch review: ${loginRes.status}`);
+        console.log('Response Body:', loginRes.body);
     } else {
-        console.log('Review fetched successfully:', reviewRes.body);
+        console.log('Review fetched successfully:', loginRes.body);
     }
     sleep(1);
 }
