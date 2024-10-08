@@ -37,7 +37,7 @@ export default function () {
         console.error(`Failed to fetch review: ${loginRes.status}`);
         console.log('Response Body:', loginRes.body);
     } else {
-        console.log('Review fetched successfully:', loginRes.body);
+        // console.log('Review fetched successfully:', loginRes.body);
     }
     sleep(1);
 }
